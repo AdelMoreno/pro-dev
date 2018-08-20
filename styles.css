@@ -1,9 +1,11 @@
-
+body {
+	background: url("texture.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
 
 table {
 	text-align: center;
 	width: 100%;
-	;
 	border-collapse: collapse;
 }
 
@@ -14,4 +16,8 @@ tr:hover {
 
 tr:nth-child(even) {
 	background-color: #dedfe0;
+}
+
+a {
+	color: white;
 }
