@@ -22,3 +22,23 @@ tr:nth-child(even) {
 a {
 	color: white;
 }
+
+.navbar-custom .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+	color: white;
+	background-color: teal;
+}
+
+ul[class*="list"] {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+ol[class*="list"] {
+	display: inline-block;
+	vertical-align: middle;
+}

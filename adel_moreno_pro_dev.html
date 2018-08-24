@@ -13,8 +13,31 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	</head>
 <body>
-
-	<div class="container-fluid background text-center">
+<div class="container-fluid">
+	<nav class="navbar fixed-top navbar-expand-md navbar-dark">
+		<a class="navbar-brand" href="#">Navigation</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarToggler">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#home">Home</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#homework">Homework</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#reflections">Reflections</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#social">Social Media Search</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</div>
+	<div id="home" class="container-fluid background mt-5 text-center">
 		<div class="container">
 	<header class="container">
 		<div class="row">
@@ -29,14 +52,16 @@
 	<p>Career Buddy: Caleb</p>
 
 	<h2>My Links</h2>
-	<ul class="links">
+			<div class="col-md-12 text-center">
+	<ul class="text-left list">
 		<li><a href="https://www.linkedin.com/in/adel-moreno-129474165/" target="_blank">LinkedIn</a></li>
 		<li><a href="https://twitter.com/AdelMoreno5" target="_blank">Twitter</a></li>
-		<li><a href="">Github</a></li>
+		<li><a href="https://github.com/AdelMoreno">Github</a></li>
 		<li><a href="adel_moreno_resume.pdf" target="_blank">Resume</a></li>
 	</ul>
+			</div>
 
-		<h2>Homework Activities</h2>
+		<h2 id="homework">Homework Activities</h2>
 		<div class="container">
 			<div class="row">
 				<div class="col-md mb-3">
@@ -65,21 +90,21 @@
 		</div>
 		<br>
 		<h3>Quantitative Accomplishments</h3>
-		<ul>
+		<ul class="list text-left">
 			<li>I've been responsible for at least eighty employees' timecard and payroll.</li>
 			<li>I've been promoted in Albertsons five times.</li>
 			<li>I've been with the same company for nine years.</li>
 		</ul>
 		<br>
 		<h3>Qualitative Features</h3>
-		<ul>
+		<ul class="list text-left">
 			<li>Friendly disposition</li>
 			<li>Positive outlook</li>
 			<li>Detail-oriented</li>
 		</ul>
 		<br>
 		<h3>Golden Circle</h3>
-		<ol>
+		<ol class="list text-left">
 			<li>Why? To provide a better life for my fiance and I.</li>
 			<li>How? Training to become a web developer.</li>
 			<li>What? Being a student at Deep Dive Coding</li>
@@ -103,7 +128,7 @@
 	I felt that I was able to observe and give good advice during the game.</p>
 
 		<h2>Persuasion Activity</h2>
-		<ol>
+		<ol class="list text-left">
 			<li>I've been told by some people that I'm smart and that I'm really good with technology. I'm not sure
 			that I believe them. I feel that I have always just tried my best and really applied myself to the things
 			that I want to do.</li>
@@ -115,7 +140,7 @@
 		</ol>
 
 		<h2>Stovetop</h2>
-			<ol>
+			<ol class="list text-left">
 				<li>Ask talent manager about web developer opportunities at my current job.</li>
 				<li>Attend meetups to see if I can volunteer and network myself</li>
 				<li>Work with workforce connections and NMITAP</li>
@@ -124,7 +149,7 @@
 
 
 
-	<div name="reflections mt-1">
+	<div id="reflections">
 		<h2>Weekly Reflections</h2>
 		<br>
 		<h3>Week 1</h3>
@@ -163,9 +188,18 @@
 		needed to. Our group is going to Crepes and Coding on Saturday to fix all the bugs with our APIs. This is the
 		first time we will getting together outside of class, and I'm excited for that! I enjoy coding because
 		because it allows me to make websites that are aesthetically pleasing and easy to use.</p>
+		<h3>Week 7</h3>
+		<p>My team and I finished our services and interfaces in Angular. We started making our static UI, and are almost done!
+		I feel like we are making very good progress! George said we are ahead and will have plenty of time to add extra
+		functionality if we choose to. We have our HR and technical interviews next week. I'm nervous for both, but I
+		think the technical part is what scares me the most. I have started doing some deeper studying into Javascript because
+		I was told that it was very important. I will be meeting with some classmates to study some more Javascript this weekend,
+		and I am excited for that. I can't believe there are only three weeks left! We will all be graduating soon, and I'm excited
+		for what will be happening next! I enjoy coding because it allows me to create websites that are aesthetically and
+		functionally please for the user.</p>
 	</div>
 
-	<table class="mb-3">
+	<table id="social" class="mb-3">
 		<tr>
 			<th></th>
 			<th>Professional</th>
