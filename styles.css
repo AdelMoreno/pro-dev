@@ -1,5 +1,6 @@
 body {
-	background: url("texture.jpg") no-repeat center center fixed;
+	/**background: url("texture.jpg") no-repeat center center fixed;**/
+	background-color: #c6b8d8;
 	background-size: cover;
 	font-family: Verdana, sans-serif;
 }
@@ -20,17 +21,7 @@ tr:nth-child(even) {
 }
 
 a {
-	color: white;
-}
-
-.navbar-custom .navbar-nav .nav-link {
-	color: white;
-}
-
-.navbar-custom .nav-item.active .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-	color: white;
-	background-color: teal;
+	color: black;
 }
 
 ul[class*="list"] {
