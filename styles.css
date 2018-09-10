@@ -36,3 +36,11 @@ ol[class*="list"] {
 .back-home {
 	justify-content: center;
 }
+
+.navbar {
+	background-color: grey;
+}
+
+#home {
+	margin-top: 5em;
+}
