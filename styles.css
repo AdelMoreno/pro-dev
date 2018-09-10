@@ -33,10 +33,6 @@ ol[class*="list"] {
 	vertical-align: middle;
 }
 
-.back-home {
-	justify-content: center;
-}
-
 .navbar {
 	background-color: grey;
 }
